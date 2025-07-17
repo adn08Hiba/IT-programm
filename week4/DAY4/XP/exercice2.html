@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ma Page Web</title>
+</head>
+<body>
+    <form action ="" method = "POST">
+        <p>
+            <label>Name</label></br>
+            <input id = "name" name ="name" type ="text" placeholder =" entrer votre nom" required/>
+        </p>
+        <p>
+            <label>Comments</label></br>
+            <textarea id="message" name="message" rows="5" cols="30" ></textarea>
+        </p>
+        <p>
+            <button name = "send" type ="submit" method = "GET">Send</button> 
+        </p>
+        <!--the sent data will apppear in the body of the HTTP request, not in the URL's query string-->
+    </form>
+</body>
+</html>
